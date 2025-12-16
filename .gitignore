@@ -1,0 +1,72 @@
+####################################
+# ===== GLOBAL =====
+####################################
+.env
+.env.local
+.env.development
+.env.production
+
+.DS_Store
+Thumbs.db
+
+####################################
+# ===== IntelliJ / IDE =====
+####################################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+####################################
+# ===== VS Code =====
+####################################
+.vscode/
+
+####################################
+# ===== Spring Boot Backend =====
+####################################
+# Build folders
+backend/target/
+backend/build/
+
+# Logs
+backend/logs/
+backend/*.log
+
+# Sensitive configs
+backend/src/main/resources/application-local.yml
+backend/src/main/resources/application-dev.yml
+backend/src/main/resources/application-prod.yml
+
+# Optional Maven wrapper ignore (si tu veux tracker mvnw, mvnw.cmd, .mvn, laisse-les hors ignore)
+# backend/mvnw
+# backend/mvnw.cmd
+# backend/.mvn/
+
+####################################
+# ===== React Frontend =====
+####################################
+# Dependencies
+frontend/node_modules/
+
+# Build output
+frontend/build/
+frontend/dist/
+
+# Cache
+frontend/.cache/
+frontend/.parcel-cache/
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+####################################
+# ===== OS / TEMP =====
+####################################
+*.swp
+*.tmp
+*.bak
