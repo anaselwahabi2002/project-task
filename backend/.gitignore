@@ -1,0 +1,67 @@
+####################################
+# ===== GLOBAL =====
+####################################
+.env
+.env.local
+.env.development
+.env.production
+
+.DS_Store
+Thumbs.db
+
+####################################
+# ===== IntelliJ / IDE =====
+####################################
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+####################################
+# ===== VS Code =====
+####################################
+.vscode/
+
+####################################
+# ===== Spring Boot (Banked) =====
+####################################
+# Build
+Banked/target/
+Banked/build/
+
+# Logs
+Banked/logs/
+Banked/*.log
+
+# Spring config sensible
+Banked/src/main/resources/application-local.yml
+Banked/src/main/resources/application-dev.yml
+Banked/src/main/resources/application-prod.yml
+
+####################################
+# ===== React / Frontend =====
+####################################
+# Dependencies
+Frontend/node_modules/
+
+# Build output
+Frontend/dist/
+Frontend/build/
+
+# Cache
+Frontend/.cache/
+Frontend/.parcel-cache/
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+
+####################################
+# ===== OS / TEMP =====
+####################################
+*.swp
+*.tmp
+*.bak
