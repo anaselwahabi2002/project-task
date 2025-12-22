@@ -8,3 +8,8 @@ export const login = async (credentials) => {
 
   return token;
 };
+
+export const logout = () => {
+  localStorage.removeItem("token");
+};
+
