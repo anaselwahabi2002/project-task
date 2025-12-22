@@ -10,91 +10,91 @@ Essentials
 
 Java 17 + Spring Boot
 
-•  REST API
+    •  REST API
 
-•  Clean Architecture (Controller / Service / Repository)
+    •  Clean Architecture (Controller / Service / Repository)
 
-•  Spring Security + JWT
+    •  Spring Security + JWT
 
-•  DTO pattern
+    •  DTO pattern
 
-•  MapStruct (Mapper)
+    •  MapStruct (Mapper)
 
-•  Project progress calculation (percentage)
+    •  Project progress calculation (percentage)
 
-•  JUnit & Mockito (Unit Testing)
+    •  JUnit & Mockito (Unit Testing)
 
-•  Dockerized backend service
+    •  Dockerized backend service
 
 -  Responsibilities
 
-•  Authentication & authorization
+        •  Authentication & authorization
 
-•  Business logic
+        •  Business logic
 
-•  Projects & tasks management
+        •  Projects & tasks management
 
-•  Calculate project progress in percentage
+        •  Calculate project progress in percentage
 
-•  Secure API endpoints
+        •  Secure API endpoints
 
-•  Database access
+        •  Database access
 
 -  Frontend (React)
 Essentials
 
 React 19
 
-•  Vite
+    •  Vite
 
-•  Tailwind CSS v4
+    •  Tailwind CSS v4
 
-•  JWT-based authentication
-
-•  Protected routes
-
-•  Custom hooks
-
-•  Projects & tasks pagination (UI level)
-
-•  Projects & tasks search (UI level)
-
-•  Project progress bar on each project card
-
-•  Reusable components
-
-•  Docker + Nginx
+    •  JWT-based authentication
+    
+    •  Protected routes
+    
+    •  Custom hooks
+    
+    •  Projects & tasks pagination (UI level)
+    
+    •  Projects & tasks search (UI level)
+    
+    •  Project progress bar on each project card
+    
+    •  Reusable components
+    
+    •  Docker + Nginx
 
 Responsibilities
 
-•  User interface
-
-•  Projects & tasks management
-
-•  Search and pagination UI
-
-•  Visual project progress display
-
-•  API consumption
-
-•  Client-side routing and state handling
+    •  User interface
+    
+    •  Projects & tasks management
+    
+    •  Search and pagination UI
+    
+    •  Visual project progress display
+    
+    •  API consumption
+    
+    •  Client-side routing and state handling
 
 Database (MySQL)
 Essentials
 
-•  MySQL
-
-•  Relational database
-
-•  JPA / Hibernate
-
-•  Docker volume for persistence
+    •  MySQL
+    
+    •  Relational database
+    
+    •  JPA / Hibernate
+    
+    •  Docker volume for persistence
 
 Responsibilities
 
-•  Store users, projects, and tasks
-
-•  Ensure data consistency and integrity
+    •  Store users, projects, and tasks
+    
+    •  Ensure data consistency and integrity
 
 Environment Variables
 
@@ -138,17 +138,17 @@ Centralized configuration using environment variables
 
 🔐 Security
 
-•  JWT authentication
-
-•  Role-based authorization
-
-•  Secured backend endpoints
+    •  JWT authentication
+    
+    •  Role-based authorization
+    
+    •  Secured backend endpoints
 
 Protected frontend routes
 
 🧪 Testing
 
-•  Postman for API testing
-
-•  JUnit & Mockito for backend unit testing
+    •  Postman for API testing
+    
+    •  JUnit & Mockito for backend unit testing
 
