@@ -3,152 +3,66 @@ ProjectTask
 
 ProjectTask is a full-stack project management application built with React 19, Spring Boot (Java 17), and MySQL.
 It allows users to manage projects and tasks with secure authentication and visual progress tracking.
-The application is fully containerized using Docker Compose and follows clean, maintainable architecture principles.
+The application is fully containerized using Docker Compose.
 
-Backend (Spring Boot)
-Essentials
+🛠️ Technologies Used
 
-Java 17 + Spring Boot
+    •    Backend: Java 17, Spring Boot, Spring Security (JWT), MapStruct, JUnit, Mockito
 
-    •  REST API
+    •    Frontend: React 19, Vite, Tailwind CSS v4
 
-    •  Clean Architecture (Controller / Service / Repository)
+    •    Database: MySQL
 
-    •  Spring Security + JWT
+Tools: Docker, Docker Compose, Postman
 
-    •  DTO pattern
+✨ Key Features
 
-    •  MapStruct (Mapper)
+    •    JWT authentication & protected routes
 
-    •  Project progress calculation (percentage)
+    •    Projects & tasks CRUD
 
-    •  JUnit & Mockito (Unit Testing)
+    •    Project progress calculation (backend)
 
-    •  Dockerized backend service
+    •    Progress bar per project (frontend)
 
--  Responsibilities
+    •    Search & pagination for projects and tasks
 
-        •  Authentication & authorization
+    •    Clean architecture (Controller / Service / Repository)
 
-        •  Business logic
+    •    Environment variables (no hardcoded values)
 
-        •  Projects & tasks management
+🐳 Run with Docker 
+        docker-compose up --build
 
-        •  Calculate project progress in percentage
 
-        •  Secure API endpoints
+Starts:
 
-        •  Database access
+    •    Frontend
 
--  Frontend (React)
-Essentials
+    •    Backend
 
-React 19
+    •    MySQL database
 
-    •  Vite
-
-    •  Tailwind CSS v4
-
-    •  JWT-based authentication
-    
-    •  Protected routes
-    
-    •  Custom hooks
-    
-    •  Projects & tasks pagination (UI level)
-    
-    •  Projects & tasks search (UI level)
-    
-    •  Project progress bar on each project card
-    
-    •  Reusable components
-    
-    •  Docker + Nginx
-
-Responsibilities
-
-    •  User interface
-    
-    •  Projects & tasks management
-    
-    •  Search and pagination UI
-    
-    •  Visual project progress display
-    
-    •  API consumption
-    
-    •  Client-side routing and state handling
-
-Database (MySQL)
-Essentials
-
-    •  MySQL
-    
-    •  Relational database
-    
-    •  JPA / Hibernate
-    
-    •  Docker volume for persistence
-
-Responsibilities
-
-    •  Store users, projects, and tasks
-    
-    •  Ensure data consistency and integrity
-
-Environment Variables
-
-To avoid hardcoding sensitive or environment-specific values, the project uses environment variables.
-
+▶️ Run Locally (Optional)
 Backend
-
-    SPRING_DATASOURCE_URL
-    SPRING_DATASOURCE_USERNAME
-    SPRING_DATASOURCE_PASSWORD
-    JWT_SECRET
-
-Database
-
-    MYSQL_ROOT_PASSWORD
-    MYSQL_DATABASE
-    MYSQL_USER
-    MYSQL_PASSWORD
+        cd backend
+        ./mvnw spring-boot:run
 
 Frontend
+        cd frontend
+        npm install
+        npm run dev
 
-    VITE_API_URL
+🗄️ Database
 
-All environment variables are managed via .env files and Docker Compose.
+    •    MySQL (Docker container)
 
-Docker & Orchestration
+    •    JPA / Hibernate
 
-  Docker Compose
-
-  Three containers : 
-
-    Frontend
-
-    Backend
-
-    MySQL
-
-Centralized configuration using environment variables
-
-    docker-compose up --build
-
-🔐 Security
-
-    •  JWT authentication
-    
-    •  Role-based authorization
-    
-    •  Secured backend endpoints
-
-Protected frontend routes
+    •    Persistent Docker volume
 
 🧪 Testing
 
-    •  Postman for API testing
-    
-    •  JUnit & Mockito for backend unit testing
+    •    Postman (API testing)
 
+    •    JUnit & Mockito (backend unit tests)
